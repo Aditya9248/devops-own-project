@@ -1,0 +1,15 @@
+# Node.js
+nodeapp/node_modules/
+
+# Terraform
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/*.tfstate
+terraform/*.tfstate.*
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
