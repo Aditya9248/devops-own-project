@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-    res.send("Hello from DevOps CI/CD Project 🚀");
+    res.send("Hello from DevOps CI/CD Project 🚀 version 2");
 });
 
 const PORT = process.env.PORT || 3000;
